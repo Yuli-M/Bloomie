@@ -1,4 +1,4 @@
-package com.example.bloomie;
+package com.example.asd;
 
 import org.junit.Test;
 

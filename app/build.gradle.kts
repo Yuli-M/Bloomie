@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.bloomie"
+    namespace = "com.example.asd"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.bloomie"
+        applicationId = "com.example.asd"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -26,20 +26,14 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
-    buildFeatures {
-        viewBinding = true
-    }
 }
 
 dependencies {
 
     implementation(libs.appcompat)
     implementation(libs.material)
+    implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.lifecycle.livedata.ktx)
-    implementation(libs.lifecycle.viewmodel.ktx)
-    implementation(libs.navigation.fragment)
-    implementation(libs.navigation.ui)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
